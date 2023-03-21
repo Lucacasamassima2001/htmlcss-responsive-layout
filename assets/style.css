@@ -260,7 +260,7 @@ ul{
 }
 
 .col-right{
-    margin-top: 2em;
+    margin-top: 5em;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -288,7 +288,7 @@ ul{
     margin: auto;
     width: 40px;
     height: 40px;
-    margin-top: 1em;
+    margin-top: 2em;
     background-color: rgba(151,146,228,255);
     border-radius: 50%;
 }
