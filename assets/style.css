@@ -176,6 +176,10 @@ ul{
 
 
 @media screen and (max-width:810px) {
+    .properties-container{
+        width: 100%;
+    }
+
     .property-big{
         flex-direction: column;
     }
