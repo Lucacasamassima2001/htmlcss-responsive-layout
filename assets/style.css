@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -32,10 +33,13 @@ ul{
     gap: 1em;
 }
 
+
+
 .nav-item{
     text-decoration: none;
     color: white;
 }
+
 
 .logo{
     font-size: 2em;
@@ -183,6 +187,14 @@ ul{
     .phone-img{
         margin-top: 1em;
     }
+
+    .property h2{
+        font-size: 1em;
+    }
+
+    .property p{
+        font-size: .8em;
+    }
 }
 
 
@@ -316,6 +328,8 @@ ul{
     
 }
 
+
+
 /* END PLANNING SECTION */
 
 /* START PARTNERS SECTION */
@@ -335,11 +349,14 @@ ul{
 .partners-container h2{
     margin-top: 1em;
     margin-bottom: 1em;
+    color: rgba(151,146,228,255);
 }
 
 .partners-container p{
     margin-bottom: 2em;
+    line-height: 1.5em;
 }
+
 
 
 
@@ -374,6 +391,7 @@ ul{
 .slogan{
     margin-top: 2em;
     margin-bottom: 2em;
+    line-height: 1.5em;
     color: white;
 }
 
@@ -516,11 +534,20 @@ ul{
 .ceo-img-container{
     width: 80%;
     aspect-ratio: 1/1;
+    position: relative;
 }
 
 .ceo-img{
     max-width: 100%;
     border-radius: 50%;
+    
+}
+
+.ceo-quote{
+    font-size: 4em;
+    position: absolute;
+    right: 0;
+    color: rgba(151,146,228,255);
 }
 
 .ceo-slogan{
@@ -544,6 +571,10 @@ ul{
     .ceo-slogan{
         font-size: 1.5em;
     }
+
+    .ceo-quote{
+        font-size: 2.5em;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -558,6 +589,10 @@ ul{
 
     .ceo{
         width: 100%;
+    }
+
+    .ceo-quote{
+        font-size: 4em;
     }
 }
 
@@ -594,7 +629,7 @@ ul{
 }
 
 .free-container h1{
-    font-size: 7em;
+    font-size: 5em;
     color: rgba(253,193,95,255);
 }
 
