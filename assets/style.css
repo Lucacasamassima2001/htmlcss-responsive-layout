@@ -476,3 +476,85 @@ ul{
 }
 
 /* END BENEFITS SECTION */
+
+.about-us{
+    margin-top: 4em;
+}
+
+
+
+.about-us-container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 4em;
+    padding: 1em;
+}
+
+.description-about-us{
+    width: 60%;
+}
+
+.description-about-us h1{
+    font-size: 3em;
+    color: rgba(151,146,228,255);
+}
+
+.description-about-us p{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    line-height: 2em;
+}
+
+.ceo{
+    width: 40%;
+    padding-left: 1em;
+}
+
+.ceo-img-container{
+    width: 80%;
+    aspect-ratio: 1/1;
+}
+
+.ceo-img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.ceo-slogan{
+    font-size: 1.5em;
+    color: rgba(151,146,228,255);
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+.find-me{
+    background-color: rgba(151,146,228,255);
+    padding: .8em;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    white-space: nowrap;
+}
+
+
+@media screen and (max-width:810px) {
+    .ceo-slogan{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .about-us-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .description-about-us{
+        width: 100%;
+    }
+
+    .ceo{
+        width: 100%;
+    }
+}
