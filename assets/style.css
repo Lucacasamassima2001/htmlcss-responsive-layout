@@ -290,6 +290,7 @@ ul{
     width: 40px;
     height: 40px;
     margin-top: 2em;
+    margin-bottom: 2em;
     background-color: rgba(151,146,228,255);
     border-radius: 50%;
 }
@@ -305,6 +306,7 @@ ul{
 @media screen and (max-width:810px) {
     .planning-container{
         flex-direction: column;
+        width: 100%;
     }
 
     .col-right{
@@ -401,7 +403,22 @@ ul{
     font-size: 1.5em;
 }
 
+@media screen and (max-width:810px) {
+    .partners-container{
+        width: 100%;
+        padding: 1em;
+    }
+
+    .partners-container h2{
+        font-size: 2em;
+    }
+    
+}
+
 @media screen and (max-width:375px) {
+
+   
+
     .partner-1{
         flex-direction: column;
         text-align: center;
@@ -429,6 +446,7 @@ ul{
 
 .benefits h2{
     padding-top: 1em;
+    padding-bottom: 1em;
     color: white;
     font-size: 2.5em;
 }
@@ -481,6 +499,11 @@ ul{
 }
 
 @media screen and (max-width:810px) {
+
+    .cards-container{
+        width: 100%;
+        padding: 1em;
+    }
     .card{
         width: calc(100% / 2 - 1em);
     }
@@ -490,6 +513,10 @@ ul{
 @media screen and (max-width:375px) {
     .card{
         width: 100%;
+    }
+
+    .benefits h2{
+        font-size: 1.8em;
     }
     
 }
