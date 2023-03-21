@@ -261,6 +261,7 @@ ul{
 
 .col-right{
     margin-top: 5em;
+    margin-bottom: 3em;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -421,7 +422,7 @@ ul{
 /* START BENEFITS/CARDS SECTION */
 
 .benefits{
-    margin-top: 2em;
+    margin-top: 4em;
     background-color: rgba(151,146,228,255);
     text-align: center;
 }
