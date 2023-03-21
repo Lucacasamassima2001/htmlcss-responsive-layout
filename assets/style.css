@@ -399,3 +399,80 @@ ul{
 }
 
 /* END PARTNERS SECTION */
+
+/* START BENEFITS/CARDS SECTION */
+
+.benefits{
+    margin-top: 2em;
+    background-color: rgba(151,146,228,255);
+    text-align: center;
+}
+
+.benefits h2{
+    padding-top: 1em;
+    color: white;
+    font-size: 2.5em;
+}
+
+.cards-container{
+    width: 60%;
+    background-color: rgba(151,146,228,255);
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap: 1em;
+    text-align: left;
+}
+
+.card{
+    width: calc(100% / 3 - 1em);
+    background-color: white;
+    padding: 1em;
+    border-radius: 30px;
+}
+
+.card h1{
+    color: rgba(151,146,228,255);
+    font-size: 4em;
+}
+
+.card h2{
+    color: rgba(151,146,228,255);
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.card p{
+    color: rgba(151,146,228,255);
+    margin-bottom: 3em;
+    line-height: 1.5em;
+}
+
+.card a{
+    text-decoration: none;
+    color: white;
+    padding: .5em;
+    border-radius: 30px;
+    background-color: rgba(151,146,228,255);
+    padding-inline: 2em;
+    letter-spacing: .2em;
+}
+
+@media screen and (max-width:810px) {
+    .card{
+        width: calc(100% / 2 - 1em);
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    .card{
+        width: 100%;
+    }
+    
+}
+
+/* END BENEFITS SECTION */
