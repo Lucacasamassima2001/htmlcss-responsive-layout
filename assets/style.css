@@ -301,10 +301,10 @@ ul{
 
 
 .planning-1{
-    max-width: 60%;
+    max-width: 100%;
 }
 .planning-2{
-    max-width: 50%;
+    max-width: 100%;
 }
 
 @media screen and (max-width:810px) {
